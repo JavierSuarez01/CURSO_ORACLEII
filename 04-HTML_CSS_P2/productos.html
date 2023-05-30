@@ -5,19 +5,50 @@
     <head>
         <meta charset="UTF-8">
         <title>Productos - Barberia Alura</title>
+        <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="productos.css">
     </head>
 
     <body>
         <header>
-            <h1><img src="C:\Users\pacho\OneDrive\Documents\CURSO_ALURA\CURSO_ORACLEII\CURSO_ORACLEII\04-HTML_CSS_P2\img\logo.png"></h1>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="productos.html">Productos</a></li>
-                <li><a href='contacto.hml'>Contacto</a></li>
-            </ul>
+            <div class="caja">
+                <h1><img src="img\logo.png"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href='contacto.hml'>Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
-        
-    </body>
 
+        <main>
+            <ul class="productos">
+                <li>
+                    <h2>Cabello</h2>
+                    <img src="img\cabello.jpg" alt="">
+                    <p class="producto_descripcion">Con tiquera o maquina, a gusto del cliente</p>
+                    <p class="producto_precio">$ 10.00</p>
+                </li>
+                <li>
+                    <h2>Barba</h2>
+                    <img src="img\barba.jpg" alt="">
+                    <p class="producto_descripcion">Corte y diseño profesional de barba</p>
+                    <p class="producto_precio">$ 08.00</p>
+                </li>
+                <li>
+                    <h2>Cabello + Barba</h2>
+                    <img src="img\cabello+barba.jpg" alt="">
+                    <p class="producto_descripcion">paquete completo de cabello y barba</p>
+                    <p class="producto_precio">$ 15.00</p>
+                </li>
+            </ul>
+        </main>
+
+        <footer>
+            <img src="img\logo-blanco.png" alt="">
+            <p class="copyright">&copy Copyright Barberia Alura - 2023</p>
+        </footer>
+    </body>
 </html>
